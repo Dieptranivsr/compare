@@ -133,7 +133,7 @@
     <param name="optimization/lambda3" value="0.00001" type="double"/>
     <param name="optimization/lambda4" value="0.01" type="double"/>
     <param name="optimization/lambda7" value="100.0" type="double"/>
-    <param name="optimization/dist0" value="0.7" type="double"/>
+    <param name="optimization/dist0" value="1.7" type="double"/>
     <param name="optimization/max_vel" value="$(arg max_vel)" type="double"/>
     <param name="optimization/max_acc" value="$(arg max_acc)" type="double"/>
 

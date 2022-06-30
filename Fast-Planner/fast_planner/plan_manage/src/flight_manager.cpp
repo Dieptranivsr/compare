@@ -60,7 +60,7 @@ bool FastPlannerManager::checkTrajCollision(double& distance) {
     fut_pt = local_data_.position_traj_.evaluateDeBoor(tm + t_now + fut_t);
 
     double dist = edt_environment_->evaluateCoarseEDT(fut_pt, -1.0);
-    if (dist < 0.8) {
+    if (dist < 1.5) {
       distance = radius;
       return false;
     }

@@ -47,14 +47,14 @@
     <!-- If flight_type is set to 2, the drone will travel these waypoints one by one -->
     <arg name="point_num" value="2" />
 
-    <arg name="point0_x" value="12.0" />
+    <arg name="point0_x" value="14.0" />
     <arg name="point0_y" value="0.0" />
-    <arg name="point0_z" value="2.0" />
+    <arg name="point0_z" value="4.0" />
 
     <!-- set more waypoints if you need -->
     <arg name="point1_x" value="0.0" />
     <arg name="point1_y" value="0.0" />
-    <arg name="point1_z" value="2.0" />
+    <arg name="point1_z" value="4.0" />
 
     <arg name="point2_x" value="0.0" />
     <arg name="point2_y" value="0.0" />
